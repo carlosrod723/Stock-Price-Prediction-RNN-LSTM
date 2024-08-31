@@ -1,0 +1,10 @@
+tensorflow
+keras
+statsmodels
+numpy
+pandas
+yfinance
+pandas_datareader
+pandas_ta
+seaborn
+matplotlib

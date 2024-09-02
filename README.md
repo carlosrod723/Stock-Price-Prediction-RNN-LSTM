@@ -22,7 +22,21 @@ This repository not only serves as a comprehensive guide to applying RNNs and LS
 - [License](#license)
 
 ## Dataset
+
 The dataset consists of historical stock prices for Apple Inc. (AAPL), including daily records of the opening, closing, highest, and lowest prices, as well as trading volume. The data is sourced from the Yahoo Finance API.
+
+### Data Dictionary
+
+| Column      | Description                                                                 |
+| ----------- | --------------------------------------------------------------------------- |
+| **Date**    | The date of the trading day.                                                |
+| **Open**    | The price of Apple Inc. (AAPL) stock at the beginning of the trading day.   |
+| **High**    | The highest price of the stock during the trading day.                      |
+| **Low**     | The lowest price of the stock during the trading day.                       |
+| **Close**   | The price of the stock at the end of the trading day.                       |
+| **Adj Close** | The adjusted closing price, accounting for any corporate actions like splits. |
+| **Volume**  | The total number of shares traded during the day.                           |
+
 
 ## Tech Stack
 - **Language:** Python
